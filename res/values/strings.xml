@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TI3 Race Randomizer</string>
+    <string name="playercount">Choose the Amount of Players</string>
+    <string name="playercounttitle">Player Count</string>
+    <string name="expansions">Choose an Expansion</string>
+    <string name="expansionstitle">Expansions</string>
+    <string name="standard">Standard Set</string>
+    <string name="firstexpansion">Shattered Empire</string>
+    <string name="secondexpansion">Shards of the Throne</string>
+    <string name="both">Both Expansions</string>
+    <string name="title_activity_show_races">ShowRacesActivity</string>
+    <string name="refresh">Refresh</string>
+    <string name="tiles"><u>Required Tiles</u></string>
+    <string name="races">Races</string>
+    <string name="threeregular"><u>Regular</u>: 16\n</string>
+    <string name="threespecial"><u>Special</u>: 3\n</string>
+    <string name="threeempty"><u>Empty</u>: 5\n</string>
+    <string name="threeremove"><u>Remove</u>: 0\n</string>
+    <string name="fourregular"><u>Regular</u>: 20\n</string>
+    <string name="fourspecial"><u>Special</u>: 4\n</string>
+    <string name="fourempty"><u>Empty</u>: 8\n</string>
+    <string name="fourremove"><u>Remove</u>: 0\n</string>
+    <string name="fiveregular"><u>Regular</u>: 20\n</string>
+    <string name="fivespecial"><u>Special</u>: 4\n</string>
+    <string name="fiveempty"><u>Empty</u>: 8\n</string>
+    <string name="fiveremove"><u>Remove</u>: 1\n</string>
+    <string name="sixregular"><u>Regular</u>: 20\n</string>
+    <string name="sixspecial"><u>Special</u>: 4\n</string>
+    <string name="sixempty"><u>Empty</u>: 8\n</string>
+    <string name="sixremove"><u>Remove</u>: 2\n</string>
+    <string name="fiveregularlarge"><u>Regular</u>: 20\n<u>Large</u>: 34</string>
+    <string name="fivespeciallarge"><u>Special</u>: 4\n <u>Large</u>: 9</string>
+    <string name="fiveemptylarge"><u>Empty</u>: 8\n<u>Large</u>: 12</string>
+    <string name="fiveremovelarge"><u>Remove</u>: 1\n<u>Large</u>: 0</string>
+    <string name="sixregularlarge"><u>Regular</u>: 20\n<u>Large</u>: 34</string>
+    <string name="sixspeciallarge"><u>Special</u>: 4\n <u>Large</u>: 9</string>
+    <string name="sixemptylarge"><u>Empty</u>: 8\n<u>Large</u>: 12</string>
+    <string name="sixremovelarge"><u>Remove</u>: 2\n<u>Large</u>: 1</string>
+    <string name="sevenregular"><u>Regular</u>: 34\n</string>
+    <string name="sevenspecial"><u>Special</u>: 9\n</string>
+    <string name="sevenempty"><u>Empty</u>: 12\n</string>
+    <string name="sevenremove"><u>Remove</u>: 4\n</string>
+    <string name="eightregular"><u>Regular</u>: 34\n</string>
+    <string name="eightspecial"><u>Special</u>: 9\n</string>
+    <string name="eightempty"><u>Empty</u>: 12\n</string>
+    <string name="eightremove"><u>Remove</u>: 5\n</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

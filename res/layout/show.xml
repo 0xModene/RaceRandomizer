@@ -1,0 +1,209 @@
+<!-- @author BlackBox @version 1.2.0 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="7"
+    android:background="@color/black"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+   	 	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:weightSum="2"
+    	android:layout_weight="1"
+    	android:background="@color/black"
+    	android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/player1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textColor="@color/silver"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size" />
+	    
+	    <TextView
+	        android:id="@+id/player2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textColor="@color/silver"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+   	 	android:layout_width="fill_parent"
+    	android:layout_height="match_parent"
+    	android:weightSum="2"
+    	android:layout_weight="1"
+    	android:background="@color/black"
+    	android:orientation="horizontal" >
+    
+	    <TextView
+	        android:id="@+id/player3"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textColor="@color/silver"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size" />
+	    
+	    <TextView
+	        android:id="@+id/player4"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textColor="@color/silver"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+   	 	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:weightSum="2"
+    	android:layout_weight="1"
+    	android:background="@color/black"
+    	android:orientation="horizontal" >
+    
+	    <TextView
+	        android:id="@+id/player5"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textColor="@color/silver"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size"/>
+	    
+	    <TextView
+	        android:id="@+id/player6"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textColor="@color/silver"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size" />
+    
+    </LinearLayout>
+    
+    <LinearLayout
+   	 	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:weightSum="2"
+    	android:layout_weight="1"
+    	android:background="@color/black"
+    	android:orientation="horizontal" >
+	    
+	    <TextView
+	        android:id="@+id/player7"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textColor="@color/silver"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size" />
+	    
+	    <TextView
+	        android:id="@+id/player8"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textColor="@color/silver"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size" />
+    
+    </LinearLayout>
+    
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/dark_gray"
+	  	android:orientation="horizontal">
+	    
+		<TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	    	android:layout_marginTop="5dp"
+        	android:background="@color/black"
+	        android:textColor="@color/silver"
+	        android:gravity="center"
+	        android:textSize="@dimen/font_size"
+	        android:text="@string/tiles" />
+		
+	</LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="4"
+        android:background="@color/dark_gray"
+	  	android:orientation="horizontal" >
+	    
+        <TextView
+	        android:id="@+id/regular"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+        	android:background="@color/black"
+	        android:textColor="@color/silver"
+	        android:gravity="top"
+	    	android:layout_marginBottom="5dp"
+	        android:textSize="@dimen/font" />
+	    
+	    <TextView
+	        android:id="@+id/special"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+        	android:background="@color/black"
+	        android:textColor="@color/silver"
+	        android:gravity="top"
+	    	android:layout_marginBottom="5dp"
+	        android:textSize="@dimen/font" />
+	    
+	    <TextView
+	        android:id="@+id/empty"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+        	android:background="@color/black"
+	        android:textColor="@color/silver"
+	        android:gravity="top"
+	    	android:layout_marginBottom="5dp"
+	        android:textSize="@dimen/font" />
+	    
+	    <TextView
+	        android:id="@+id/remove"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+        	android:background="@color/black"
+	        android:textColor="@color/silver"
+	        android:gravity="top"
+	    	android:layout_marginBottom="5dp"
+	        android:textSize="@dimen/font" />
+        
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/refresh"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:layout_marginTop="5dp"
+	    android:layout_marginLeft="40dp"
+	    android:layout_marginRight="40dp"
+	    android:layout_marginBottom="5dp"
+	    android:background="@color/dark_gray"
+	    android:text="@string/refresh"
+	    android:textSize="@dimen/font_size"
+	    android:textColor="@color/silver" />
+
+</LinearLayout>
